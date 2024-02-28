@@ -56,7 +56,6 @@ public class ConverterTemperatureGUI {
         converterGUI.add(result);
         converterGUI.add(backButton);
         
-        converterGUI.setIconImage(image);
         converterGUI.setSize(300, 300);
         converterGUI.setLayout(null);
         converterGUI.setVisible(true);
@@ -107,7 +106,6 @@ public class ConverterTemperatureGUI {
         converterGUI.add(Celsius);
         converterGUI.add(convertButton);
         converterGUI.add(result);
-        converterGUI.setIconImage(img.getImage());
         converterGUI.setSize(300, 300);
         converterGUI.setLayout(null);
         converterGUI.setVisible(true);
@@ -158,7 +156,6 @@ public class ConverterTemperatureGUI {
         mainFrame.add(firstChoice);
         mainFrame.add(secondChoice);
         mainFrame.add(exitButton);
-        mainFrame.setIconImage(img.getImage());
         mainFrame.setSize(600, 300);
         mainFrame.setLayout(null);
         mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -167,9 +164,5 @@ public class ConverterTemperatureGUI {
 
     public static void main(String[] args) {
         initWelcomeGUI();
-    }
-
-    public ConverterTemperatureGUI() {
-        this.image1 = new ImageIcon (getClass().getResource("image/icon1.png"));
     }
 }
